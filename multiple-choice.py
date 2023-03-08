@@ -3,8 +3,8 @@ class Question:
 		self.prompt = prompt
 		self.answer = answer
 
-prompts = ["who plays John Wick? /n/ta.Keanu Reeves/n/tb.Hugh Jackman /n/tc.none",
-           "What color is sky? /n/ta.green /n/tb.white /n/tc.blue"]	
+prompts = ["who plays John Wick? \n\ta.Keanu Reeves\n\tb.Hugh Jackman \n\tc.none",
+           "What color is sky? \n\ta.green \n\tb.white \n\tc.blue"]	
 
 questions = [Question(prompts[0], 'a'), Question(prompts[1], 'c')]  
 
